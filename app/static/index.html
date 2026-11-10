@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 交易助手 · 对手方画像</title>
+  <link rel="stylesheet" href="/style.css?v=20261109b" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">CP</div>
+      <div>
+        <h1>AI 交易助手</h1>
+        <p>对手方画像 · 交易知识</p>
+      </div>
+    </div>
+    <button class="btn primary block" id="btn-new-session">+ 新建会话</button>
+    <div class="session-list" id="session-list"></div>
+    <div class="sidebar-foot">
+      <div class="status-line"><span class="dot" id="dot-health"></span><span id="health-text">检查依赖…</span></div>
+      <button class="btn ghost block" id="btn-refresh">刷新状态</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="title">
+        <h2 id="session-title">新会话</h2>
+        <span class="pill" id="session-id-pill">未创建</span>
+      </div>
+      <div class="actions">
+        <button class="chip" data-action="qa">知识问答</button>
+        <button class="chip" data-action="upload">上传 PDF/图片</button>
+        <button class="chip" data-action="intake">录入对手方</button>
+        <button class="chip" data-action="report">生成画像报告</button>
+        <button class="chip" data-action="comment">生成评论</button>
+      </div>
+    </header>
+
+    <section class="chat" id="chat"></section>
+
+    <footer class="composer">
+      <textarea id="input" rows="2" placeholder="例如：协议大宗交易的对手方确认流程是什么？"></textarea>
+      <div class="composer-side">
+        <label class="switch"><input type="checkbox" id="stream-toggle" checked /> 流式输出</label>
+        <button class="btn primary" id="btn-send">发送</button>
+      </div>
+    </footer>
+  </main>
+
+  <aside class="panel" id="panel">
+    <h3 id="panel-title">工作台</h3>
+    <div id="panel-body" class="panel-body">
+      <p class="hint">选择上方功能开始。所有对话会自动保存到本地会话库。</p>
+    </div>
+  </aside>
+
+  <div class="modal-mask" id="modal-mask" hidden>
+    <div class="modal">
+      <h3 id="modal-title">确认</h3>
+      <div id="modal-body"></div>
+      <div class="modal-actions">
+        <button class="btn ghost" id="modal-cancel">取消</button>
+        <button class="btn primary" id="modal-ok">确认</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js?v=20261109b"></script>
+</body>
+</html>

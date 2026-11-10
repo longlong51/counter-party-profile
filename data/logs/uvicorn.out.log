@@ -1,0 +1,21 @@
+2026-11-09 20:34:55 | INFO    | app.main | 知识库已就绪：100 条 / 295 chunks
+2026-11-09 20:34:55 | INFO    | app.main | 依赖状态：cache=memory db=sqlite llm=degraded mcp=placeholder
+2026-11-09 20:35:00 | INFO    | app.services.mcp_client | MCP 使用示例数据：中国银行
+2026-11-09 20:35:03 | WARNING | app.agents.counterparty_graph | 报告生成降级为模板：LLM 使用占位密钥，未发起真实请求
+2026-11-09 20:35:03 | WARNING | app.agents.counterparty_graph | LLM 校验跳过：LLM 使用占位密钥，未发起真实请求
+2026-11-09 20:35:03 | INFO    | app.services.report_pdf | PDF 已生成：D:\PycharmProjects\counter-party-profile\data\reports\cp_6d5bd1af387643d8_20261109_203503.pdf
+INFO:     127.0.0.1:53032 - "POST /api/reports/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53319 - "POST /api/chat/messages/stream HTTP/1.1" 200 OK
+2026-11-09 21:15:29 | WARNING | app.api.chat | 流式失败，退回非流式：知识库召回不足
+INFO:     127.0.0.1:53319 - "GET /api/chat/sessions?limit=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53327 - "POST /api/chat/messages/stream HTTP/1.1" 200 OK
+2026-11-09 21:15:49 | WARNING | app.api.chat | 流式失败，退回非流式：LLM 使用占位密钥，未发起真实请求
+2026-11-09 21:15:49 | WARNING | app.services.rag | 生成失败，返回抽取式答案：LLM 使用占位密钥，未发起真实请求
+INFO:     127.0.0.1:53327 - "GET /api/chat/sessions?limit=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54223 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54219 - "GET /api/chat/sessions/s_8bda97458c4148be/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54219 - "GET /api/chat/sessions?limit=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54223 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54223 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54223 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54223 - "GET /favicon.ico HTTP/1.1" 404 Not Found

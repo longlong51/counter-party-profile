@@ -1,0 +1,14 @@
+Oracle 不可用，降级 SQLite：DPY-6005: cannot connect to database (CONNECTION_ID=qnQ0CPTyT9CsKTuv3tqs6g==).
+[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+LLM 使用占位密钥，未发起真实请求
+C:\Users\Administrator\AppData\Local\DoubaoWork\User Data\sandbox_runtime\bases\772984f6fd3a8ae0ae7d2422cd7c2bfa\python\Lib\site-packages\jieba\__init__.py:44: SyntaxWarning: invalid escape sequence '\.'
+  re_han_default = re.compile("([\u4E00-\u9FD5a-zA-Z0-9+#&\._%\-]+)", re.U)
+C:\Users\Administrator\AppData\Local\DoubaoWork\User Data\sandbox_runtime\bases\772984f6fd3a8ae0ae7d2422cd7c2bfa\python\Lib\site-packages\jieba\__init__.py:46: SyntaxWarning: invalid escape sequence '\s'
+  re_skip_default = re.compile("(\r\n|\s)", re.U)
+C:\Users\Administrator\AppData\Local\DoubaoWork\User Data\sandbox_runtime\bases\772984f6fd3a8ae0ae7d2422cd7c2bfa\python\Lib\site-packages\jieba\finalseg\__init__.py:78: SyntaxWarning: invalid escape sequence '\.'
+  re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+Redis 不可用，降级为内存缓存：Timeout connecting to server
+INFO:     Started server process [1132]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)

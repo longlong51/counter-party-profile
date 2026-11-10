@@ -1,0 +1,30 @@
+{"id": "Q01", "question": "市价申报的适用范围限制的具体规则是什么？", "type": "fact", "expected_ids": ["A08"], "keywords": ["适用于连续竞价期间的"], "note": "市价申报的适用范围限制"}
+{"id": "Q02", "question": "证券交易所交易日的竞价阶段划分的具体规则是什么？", "type": "fact", "expected_ids": ["A01"], "keywords": [" 与 13:00—1"], "note": "证券交易所交易日的竞价阶段划分"}
+{"id": "Q03", "question": "盘后固定价格交易的机制的具体规则是什么？", "type": "fact", "expected_ids": ["A24"], "keywords": ["投资者可在 15:05—15:30 以当"], "note": "盘后固定价格交易的机制"}
+{"id": "Q04", "question": "竞价买入申报须为100股整数倍的具体规则是什么？", "type": "fact", "expected_ids": ["A09"], "keywords": ["00 股（份）的部分"], "note": "竞价买入申报须为100股整数倍"}
+{"id": "Q05", "question": "深市盘后定价大宗交易的价格类型的具体规则是什么？", "type": "fact", "expected_ids": ["A32"], "keywords": ["日成交量加权平均价格"], "note": "深市盘后定价大宗交易的价格类型"}
+{"id": "Q06", "question": "风险警示股票与退市整理股票的交易限制的具体规则是什么？", "type": "fact", "expected_ids": ["A28"], "keywords": ["24 个月以上交易经"], "note": "风险警示股票与退市整理股票的交易限制"}
+{"id": "Q07", "question": "限价委托与市价委托的定义的具体规则是什么？", "type": "fact", "expected_ids": ["A05"], "keywords": ["按限定价格或低于限定"], "note": "限价委托与市价委托的定义"}
+{"id": "Q08", "question": "深市创业板涨跌幅与申报数量上限的具体规则是什么？", "type": "fact", "expected_ids": ["A30"], "keywords": ["深市主板股票涨跌幅限制比例为 10%"], "note": "深市创业板涨跌幅与申报数量上限"}
+{"id": "Q09", "question": "共同对手方（CCP）的定义与角色的核心要求有哪些？", "type": "fact", "expected_ids": ["B04"], "keywords": ["算过程中同时作为所有"], "note": "共同对手方（CCP）的定义与角色"}
+{"id": "Q10", "question": "用于担保交收的资金证券不得被强制执行的核心要求有哪些？", "type": "fact", "expected_ids": ["B18"], "keywords": ["收账户内按成交结果确"], "note": "用于担保交收的资金证券不得被强制执行"}
+{"id": "Q11", "question": "多边净额结算的定义的核心要求有哪些？", "type": "fact", "expected_ids": ["B03"], "keywords": ["构将每个结算参与人所"], "note": "多边净额结算的定义"}
+{"id": "Q12", "question": "证券结算互保金的风险共担机制的核心要求有哪些？", "type": "fact", "expected_ids": ["B14"], "keywords": ["险共担原则组织结算参"], "note": "证券结算互保金的风险共担机制"}
+{"id": "Q13", "question": "结算参与人资格与委托结算安排的核心要求有哪些？", "type": "fact", "expected_ids": ["B02"], "keywords": ["向证券登记结算机构申"], "note": "结算参与人资格与委托结算安排"}
+{"id": "Q14", "question": "证券资金结算实行分级结算原则的核心要求有哪些？", "type": "fact", "expected_ids": ["B01"], "keywords": ["责办理其与结算参与人"], "note": "证券资金结算实行分级结算原则"}
+{"id": "Q15", "question": "风险基金的来源与交纳标准情形下，违约如何处置？", "type": "summary", "expected_ids": ["C02"], "keywords": ["收益的 9% 提取"], "note": "风险基金的来源与交纳标准"}
+{"id": "Q16", "question": "违约时动用风险基金的法定顺序情形下，违约如何处置？", "type": "summary", "expected_ids": ["C04"], "keywords": ["算参与人按成交金额交"], "note": "违约时动用风险基金的法定顺序"}
+{"id": "Q17", "question": "客户交收违约与证券处置账户情形下，违约如何处置？", "type": "summary", "expected_ids": ["C11"], "keywords": ["构将客户净买入证券划"], "note": "客户交收违约与证券处置账户"}
+{"id": "Q18", "question": "担保物与质押券的处置及追偿情形下，违约如何处置？", "type": "summary", "expected_ids": ["C09"], "keywords": ["回购质押券并卖出专用"], "note": "担保物与质押券的处置及追偿"}
+{"id": "Q19", "question": "申购赎回价格以基金份额净值为基础加减费用是怎么规定的？", "type": "fact", "expected_ids": ["D01"], "keywords": ["在基金合同和招募说明"], "note": "申购赎回价格以基金份额净值为基础加减费用"}
+{"id": "Q20", "question": "同一信用衍生品的估值技术须一致且变更需公告是怎么规定的？", "type": "fact", "expected_ids": ["D18"], "keywords": ["最大限度保护份额持有"], "note": "同一信用衍生品的估值技术须一致且变更需公告"}
+{"id": "Q21", "question": "巨额赎回的认定标准是怎么规定的？", "type": "fact", "expected_ids": ["D07"], "keywords": ["日净赎回申请超过基金"], "note": "巨额赎回的认定标准"}
+{"id": "Q22", "question": "大额申购赎回的监测识别与管控机制是怎么规定的？", "type": "fact", "expected_ids": ["D14"], "keywords": ["循持有人利益优先与公"], "note": "大额申购赎回的监测识别与管控机制"}
+{"id": "Q23", "question": "客户风险等级划分与最高风险客户年度审核对金融机构提出了什么要求？", "type": "counterparty", "expected_ids": ["E04"], "keywords": ["务关系时依据尽调信息"], "note": "客户风险等级划分与最高风险客户年度审核"}
+{"id": "Q24", "question": "代理办理业务时须识别并核实代理人对金融机构提出了什么要求？", "type": "counterparty", "expected_ids": ["E08"], "keywords": ["取合理方式确认代理关"], "note": "代理办理业务时须识别并核实代理人"}
+{"id": "Q25", "question": "高风险情形下的强化尽职调查措施对金融机构提出了什么要求？", "type": "counterparty", "expected_ids": ["E05"], "keywords": ["能力的应拒绝办理或终"], "note": "高风险情形下的强化尽职调查措施"}
+{"id": "Q26", "question": "了解你的客户（KYC）与受益所有人识别对金融机构提出了什么要求？", "type": "counterparty", "expected_ids": ["E01"], "keywords": ["间持续关注与评估客户"], "note": "了解你的客户（KYC）与受益所有人识别"}
+{"id": "Q27", "question": "信用衍生品估值的三层取值顺序应当如何管理或计量？", "type": "summary", "expected_ids": ["F02"], "keywords": ["交易日后未发生影响公"], "note": "信用衍生品估值的三层取值顺序"}
+{"id": "Q28", "question": "预测一下中国银行下周的股价涨跌。", "type": "reject", "expected_ids": [], "keywords": [], "note": "股价预测不在知识库范围"}
+{"id": "Q29", "question": "帮我推荐三只今年收益最高的公募基金。", "type": "reject", "expected_ids": [], "keywords": [], "note": "投资推荐不在知识库范围"}
+{"id": "Q30", "question": "茅台 2025 年的营业收入是多少？", "type": "reject", "expected_ids": [], "keywords": [], "note": "个股财务数据不在知识库范围"}
